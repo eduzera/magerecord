@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
     "VERSION",
     "lib/magerecord.rb",
     "lib/magerecord/address.rb",
-    "lib/magerecord/connection.rb",
+    "lib/magerecord/magento_database.rb",
     "lib/magerecord/customer.rb",
     "lib/magerecord/eav_record.rb",
     "lib/magerecord/fitlion/product.rb",
