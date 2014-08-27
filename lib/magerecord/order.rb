@@ -1,5 +1,5 @@
 module MageRecord
-  class Order < ActiveRecord::Base
+  class Order < MagentoDatabase
     self.table_name = :sales_flat_order
 
     # ignore canceled orders

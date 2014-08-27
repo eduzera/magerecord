@@ -1,5 +1,5 @@
 module MageRecord
-  class Website < ActiveRecord::Base
+  class Website < MagentoDatabase
     self.table_name = :core_website
 
     has_many :customers

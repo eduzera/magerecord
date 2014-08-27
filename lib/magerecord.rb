@@ -2,7 +2,7 @@ require 'active_record'
 require 'active_support/core_ext/string/strip'
 
 # for establishing db connection
-require 'magerecord/connection.rb'
+require 'magerecord/magento_database.rb'
 
 # include models
 require 'magerecord/eav_record'

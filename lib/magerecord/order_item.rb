@@ -1,7 +1,7 @@
 module MageRecord
   # order items can be parents / children of other order items
   # (only within the same order)
-  class OrderItem < ActiveRecord::Base
+  class OrderItem < MagentoDatabase
     self.table_name = :sales_flat_order_item
 
     belongs_to :order

@@ -1,5 +1,5 @@
 module MageRecord
-  class EavRecord < ActiveRecord::Base
+  class EavRecord < MagentoDatabase
     self.abstract_class = true
     self.primary_key = :entity_id
 

@@ -1,5 +1,5 @@
 module MageRecord
-  class Store < ActiveRecord::Base # also known as Store View in Magento
+  class Store < MagentoDatabase # also known as Store View in Magento
     self.table_name = :core_store
 
     belongs_to :website

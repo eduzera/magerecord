@@ -1,5 +1,5 @@
 module MageRecord
-  class Product < EavRecord
+  class Product < MagentoDatabase
     self.table_name = :catalog_product_entity
 
     alias_attribute :type, :type_id

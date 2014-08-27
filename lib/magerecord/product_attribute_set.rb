@@ -1,6 +1,6 @@
 module MageRecord
   # allows us to make queries like: "List all supplements"
-  class ProductAttributeSet < ActiveRecord::Base
+  class ProductAttributeSet < MagentoDatabase
     self.table_name = :eav_attribute_set
 
     default_scope { where entity_type_id: 4 }
