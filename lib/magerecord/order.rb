@@ -12,5 +12,6 @@ module MageRecord
 
     has_many :items, class_name: :OrderItem
     has_many :products, through: :items
+    has_many :bills
   end
 end
